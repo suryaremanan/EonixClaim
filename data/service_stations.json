@@ -1,0 +1,67 @@
+[
+  {
+    "id": "SS-00001",
+    "name": "AutoCare Premium Service Center",
+    "address": "123 Main Street, San Francisco, CA 94105",
+    "phone": "(415) 555-8900",
+    "email": "service@autocareservicecenter.com",
+    "hours": "Mon-Fri: 8:00 AM - 6:00 PM, Sat: 9:00 AM - 4:00 PM",
+    "latitude": 37.792124,
+    "longitude": -122.396301,
+    "services": ["collision repair", "mechanical repair", "bodywork", "painting"],
+    "certification": ["OEM Certified", "I-CAR Gold Class"],
+    "rating": 4.8
+  },
+  {
+    "id": "SS-00002",
+    "name": "Precision Auto Body & Paint",
+    "address": "456 Market Street, Palo Alto, CA 94301",
+    "phone": "(650) 555-2345",
+    "email": "appointments@precisionautobody.com",
+    "hours": "Mon-Fri: 7:30 AM - 5:30 PM, Sat: 8:00 AM - 2:00 PM",
+    "latitude": 37.445586,
+    "longitude": -122.161410,
+    "services": ["bodywork", "painting", "collision repair", "glass replacement"],
+    "certification": ["Tesla Certified", "BMW Certified", "I-CAR Platinum"],
+    "rating": 4.9
+  },
+  {
+    "id": "SS-00003",
+    "name": "East Bay Collision Center",
+    "address": "789 Broadway, Oakland, CA 94607",
+    "phone": "(510) 555-7890",
+    "email": "info@eastbaycollision.com",
+    "hours": "Mon-Fri: 8:00 AM - 5:30 PM",
+    "latitude": 37.804781,
+    "longitude": -122.270186,
+    "services": ["collision repair", "dent removal", "frame straightening", "bodywork"],
+    "certification": ["Honda Certified", "Toyota Certified", "ASE Certified"],
+    "rating": 4.6
+  },
+  {
+    "id": "SS-00004",
+    "name": "Silicon Valley Auto Repair",
+    "address": "321 El Camino Real, San Jose, CA 95128",
+    "phone": "(408) 555-3456",
+    "email": "service@svautorepair.com",
+    "hours": "Mon-Sat: 7:00 AM - 7:00 PM, Sun: 9:00 AM - 4:00 PM",
+    "latitude": 37.323932,
+    "longitude": -121.945807,
+    "services": ["mechanical repair", "electrical repair", "diagnostics", "maintenance"],
+    "certification": ["ASE Certified", "Bosch Certified"],
+    "rating": 4.7
+  },
+  {
+    "id": "SS-00005",
+    "name": "Golden Gate Auto Body",
+    "address": "987 Divisadero St, San Francisco, CA 94117",
+    "phone": "(415) 555-9876",
+    "email": "appointments@ggautobody.com",
+    "hours": "Mon-Fri: 8:30 AM - 5:30 PM",
+    "latitude": 37.775231,
+    "longitude": -122.438674,
+    "services": ["bodywork", "painting", "collision repair", "restoration"],
+    "certification": ["Mercedes-Benz Certified", "Audi Certified", "I-CAR Gold Class"],
+    "rating": 4.9
+  }
+] 

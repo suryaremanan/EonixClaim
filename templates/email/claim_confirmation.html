@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Claim Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #2c3e50;
+        }
+        .info-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #2c3e50;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #777;
+        }
+        .blockchain-id {
+            font-family: monospace;
+            background-color: #e9ecef;
+            padding: 3px 6px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Claim Confirmation</h1>
+        <p>${date}</p>
+    </div>
+    
+    <p>Dear ${customer_name},</p>
+    
+    <p>Thank you for submitting your claim. We have received your information and are processing your claim.</p>
+    
+    <div class="info-box">
+        <p><strong>Claim ID:</strong> ${claim_id}</p>
+        <p><strong>Damage Description:</strong> ${damage_description}</p>
+        <p><strong>Estimated Cost:</strong> ${estimated_cost}</p>
+        <p><strong>Estimated Repair Time:</strong> ${repair_time}</p>
+        <p><strong>Blockchain Verification ID:</strong> <span class="blockchain-id">${blockchain_id}</span></p>
+    </div>
+    
+    <p>Your claim has been securely recorded on our blockchain for transparency and security. You can verify this record at any time using the blockchain ID above.</p>
+    
+    <p>Your claims adjuster, ${adjuster_name}, will contact you within 1-2 business days to discuss next steps. If you need immediate assistance, please call ${adjuster_phone}.</p>
+    
+    <p>You can also check the status of your claim or schedule repairs through our Slack application.</p>
+    
+    <p>Thank you for choosing Eonix Insurance.</p>
+    
+    <div class="footer">
+        <p>This email was sent automatically. Please do not reply to this message.</p>
+        <p>© ${date.split(" ")[2]} Eonix Insurance. All rights reserved.</p>
+    </div>
+</body>
+</html> 

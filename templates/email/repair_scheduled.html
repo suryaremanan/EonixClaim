@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Repair Appointment Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #2c3e50;
+        }
+        .info-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid #2c3e50;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        .directions-button {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .confirmation-code {
+            font-family: monospace;
+            font-size: 1.2em;
+            font-weight: bold;
+            background-color: #e9ecef;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+        .footer {
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Repair Appointment Confirmation</h1>
+    </div>
+    
+    <p>Dear ${customer_name},</p>
+    
+    <p>Your vehicle repair appointment has been scheduled. Details are below:</p>
+    
+    <div class="info-box">
+        <p><strong>Claim ID:</strong> ${claim_id}</p>
+        <p><strong>Date:</strong> ${service_date}</p>
+        <p><strong>Time:</strong> ${service_time}</p>
+        <p><strong>Location:</strong> ${service_location}</p>
+        <p><strong>Address:</strong> ${service_address}</p>
+        <p><strong>Phone:</strong> ${service_phone}</p>
+        <p><strong>Confirmation Code:</strong> <span class="confirmation-code">${confirmation_code}</span></p>
+    </div>
+    
+    <p>Please arrive 15 minutes before your scheduled appointment time. Remember to bring your insurance information and vehicle registration.</p>
+    
+    <p>If you need to reschedule, please contact us at least 24 hours in advance.</p>
+    
+    <a href="${directions_link}" class="directions-button">Get Directions</a>
+    
+    <p>Thank you for choosing Eonix Insurance and our partner service centers.</p>
+    
+    <div class="footer">
+        <p>This email was sent automatically. Please do not reply to this message.</p>
+        <p>© 2023 Eonix Insurance. All rights reserved.</p>
+    </div>
+</body>
+</html> 
