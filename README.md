@@ -38,8 +38,8 @@ EonixClaim is a comprehensive InsurTech platform that revolutionizes the vehicle
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/suryaremanan/eonixclaim.git
-   cd eonixclaim
+   git clone https://github.com/suryaremanan/EonixClaim.git
+   cd EonixClaim
    ```
 
 2. **Create and activate a virtual environment**:
